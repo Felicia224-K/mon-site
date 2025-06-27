@@ -1,0 +1,60 @@
+.now {
+    background-image: url("../images/expo-img.jpeg");
+    width: 400px;
+    height:400px;
+    color: white;
+    border-radius:100%;
+    margin-left:30%;
+}
+h1 {
+   padding-top: 40%;
+   padding-left:25%;
+
+}
+.products {
+    display:grid;
+    grid-template-columns:  repeat(auto-fit, minmax(250px, 1fr));
+}
+.image {
+    width:200px;
+    height: 200px;
+    margin-top:30px;
+    margin-bottom:-1px;
+}
+.product  {
+    text-align: center;
+    background-color: white;
+    margin:5px;
+    border-radius: 3px;
+    box-shadow: 8px 6px 10px black;
+    
+    
+}
+
+.product h1 {
+    margin-top: 0%;
+    margin-bottom: -10px;
+}
+.product p {
+    margin-top: -10px;
+    margin-bottom: 0%;
+}
+.product button {
+    width:100px;
+    height:25px;
+    border-radius:5px;
+    cursor:pointer;
+    border:none;
+    box-shadow: 2px 4px 9px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.product button:hover {
+    background-color: rgb(174, 162, 228);
+}
+.total-cart {
+    background-color: white;
+    height: 100%;
+    text-align:center;
+    margin-top: 50px;
+    border-radius: 5px;
+}
